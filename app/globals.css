@@ -1,26 +1,260 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+  /* Steel Grey Theme Colors */
+  --steel-50: #f8fafc;
+  --steel-100: #f1f5f9;
+  --steel-200: #e2e8f0;
+  --steel-300: #cbd5e1;
+  --steel-400: #94a3b8;
+  --steel-500: #64748b;
+  --steel-600: #475569;
+  --steel-700: #334155;
+  --steel-800: #1e293b;
+  --steel-900: #0f172a;
+  --steel-950: #020617;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Accent Colors */
+  --accent-primary: #1e40af;
+  --accent-secondary: #dc2626;
+  --accent-success: #059669;
+  --accent-warning: #d97706;
+  --accent-info: #0369a1;
+
+  /* Background and Text */
+  --background: var(--steel-50);
+  --background-card: #ffffff;
+  --background-elevated: #ffffff;
+  --foreground: var(--steel-900);
+  --foreground-muted: var(--steel-600);
+  --foreground-subtle: var(--steel-400);
+  
+  /* Borders */
+  --border-light: var(--steel-200);
+  --border-medium: var(--steel-300);
+  --border-strong: var(--steel-400);
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: var(--steel-950);
+    --background-card: var(--steel-900);
+    --background-elevated: var(--steel-800);
+    --foreground: var(--steel-50);
+    --foreground-muted: var(--steel-300);
+    --foreground-subtle: var(--steel-400);
+    
+    --border-light: var(--steel-700);
+    --border-medium: var(--steel-600);
+    --border-strong: var(--steel-500);
+
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.3);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.3), 0 2px 4px -2px rgb(0 0 0 / 0.3);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.3), 0 4px 6px -4px rgb(0 0 0 / 0.3);
   }
 }
 
+/* Base styles */
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+/* Ensure good contrast for all text */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--foreground);
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+p {
+  color: var(--foreground-muted);
+}
+
+/* Custom utility classes for the steel theme */
+.bg-steel-50 { background-color: var(--steel-50); }
+.bg-steel-100 { background-color: var(--steel-100); }
+.bg-steel-200 { background-color: var(--steel-200); }
+.bg-steel-300 { background-color: var(--steel-300); }
+.bg-steel-400 { background-color: var(--steel-400); }
+.bg-steel-500 { background-color: var(--steel-500); }
+.bg-steel-600 { background-color: var(--steel-600); }
+.bg-steel-700 { background-color: var(--steel-700); }
+.bg-steel-800 { background-color: var(--steel-800); }
+.bg-steel-900 { background-color: var(--steel-900); }
+.bg-steel-950 { background-color: var(--steel-950); }
+
+.text-steel-50 { color: var(--steel-50); }
+.text-steel-100 { color: var(--steel-100); }
+.text-steel-200 { color: var(--steel-200); }
+.text-steel-300 { color: var(--steel-300); }
+.text-steel-400 { color: var(--steel-400); }
+.text-steel-500 { color: var(--steel-500); }
+.text-steel-600 { color: var(--steel-600); }
+.text-steel-700 { color: var(--steel-700); }
+.text-steel-800 { color: var(--steel-800); }
+.text-steel-900 { color: var(--steel-900); }
+.text-steel-950 { color: var(--steel-950); }
+
+.border-steel-200 { border-color: var(--steel-200); }
+.border-steel-300 { border-color: var(--steel-300); }
+.border-steel-400 { border-color: var(--steel-400); }
+
+/* Component-specific styles */
+.card {
+  background: var(--background-card);
+  border: 1px solid var(--border-light);
+  box-shadow: var(--shadow-sm);
+}
+
+.card-elevated {
+  background: var(--background-elevated);
+  border: 1px solid var(--border-light);
+  box-shadow: var(--shadow-md);
+}
+
+/* Text contrast utilities */
+.text-high-contrast {
+  color: var(--foreground);
+}
+
+.text-medium-contrast {
+  color: var(--foreground-muted);
+}
+
+.text-low-contrast {
+  color: var(--foreground-subtle);
+}
+
+/* Focus states for accessibility */
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--steel-100);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--steel-400);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--steel-500);
+}
+
+@media (prefers-color-scheme: dark) {
+  ::-webkit-scrollbar-track {
+    background: var(--steel-800);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--steel-600);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--steel-500);
+  }
+}
+
+/* Selection styles */
+::selection {
+  background-color: var(--accent-primary);
+  color: white;
+}
+
+/* Loading animation */
+@keyframes pulse-slow {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Gradient backgrounds */
+.gradient-primary {
+  background: linear-gradient(135deg, var(--accent-primary) 0%, #3730a3 100%);
+}
+
+.gradient-success {
+  background: linear-gradient(135deg, var(--accent-success) 0%, #065f46 100%);
+}
+
+.gradient-warning {
+  background: linear-gradient(135deg, var(--accent-warning) 0%, #92400e 100%);
+}
+
+.gradient-steel {
+  background: linear-gradient(135deg, var(--steel-500) 0%, var(--steel-700) 100%);
+}
+
+/* Glass morphism effect */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+@media (prefers-color-scheme: dark) {
+  .glass {
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+
+/* Ensure form elements have proper contrast */
+input, select, textarea {
+  background: var(--background-card);
+  color: var(--foreground);
+  border: 1px solid var(--border-medium);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--foreground-subtle);
+}
+
+/* Status indicators */
+.status-success {
+  color: var(--accent-success);
+  background-color: color-mix(in srgb, var(--accent-success) 10%, transparent);
+}
+
+.status-warning {
+  color: var(--accent-warning);
+  background-color: color-mix(in srgb, var(--accent-warning) 10%, transparent);
+}
+
+.status-error {
+  color: var(--accent-secondary);
+  background-color: color-mix(in srgb, var(--accent-secondary) 10%, transparent);
+}
+
+.status-info {
+  color: var(--accent-info);
+  background-color: color-mix(in srgb, var(--accent-info) 10%, transparent);
 }

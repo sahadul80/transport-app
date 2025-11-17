@@ -1,0 +1,1399 @@
+{
+  "users": [
+    {
+      "id": "user-1",
+      "name": "Abdul Rahman",
+      "email": "abdul.rahman@company.com",
+      "role": "user",
+      "designation": "Senior Manager",
+      "department": "Operations",
+      "currentLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "carsUsed": [
+        "car-1",
+        "car-2"
+      ],
+      "totalDistance": {
+        "day": 25,
+        "month": 450,
+        "year": 5200
+      },
+      "isActive": true,
+      "password": "password123"
+    },
+    {
+      "id": "user-2",
+      "name": "Fatima Akter",
+      "email": "fatima.begum@company.com",
+      "role": "user",
+      "designation": "HR Executive",
+      "department": "Human Resources",
+      "currentLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "carsUsed": [
+        "car-3"
+      ],
+      "totalDistance": {
+        "day": 18,
+        "month": 320,
+        "year": 3800
+      },
+      "isActive": true,
+      "password": "password123"
+    },
+    {
+      "id": "user-3",
+      "name": "Mohammad Ali jr",
+      "email": "mohammad.ali@company.com",
+      "role": "user",
+      "designation": "Production Head",
+      "department": "Manufacturing",
+      "currentLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "carsUsed": [
+        "car-4",
+        "car-5"
+      ],
+      "totalDistance": {
+        "day": 35,
+        "month": 620,
+        "year": 7500
+      },
+      "isActive": true,
+      "password": "password123"
+    },
+    {
+      "id": "user-4",
+      "name": "Sharmin Akter",
+      "email": "sharmin.akter@company.com",
+      "role": "user",
+      "designation": "Finance Manager",
+      "department": "Finance",
+      "currentLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "carsUsed": [
+        "car-6"
+      ],
+      "totalDistance": {
+        "day": 12,
+        "month": 210,
+        "year": 2500
+      },
+      "isActive": true,
+      "password": "password123"
+    },
+    {
+      "id": "user-5",
+      "name": "Rahim Khan",
+      "email": "rahim.khan@company.com",
+      "role": "user",
+      "designation": "IT Specialist",
+      "department": "IT",
+      "currentLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "carsUsed": [
+        "car-7"
+      ],
+      "totalDistance": {
+        "day": 22,
+        "month": 380,
+        "year": 4200
+      },
+      "isActive": true,
+      "password": "password123"
+    },
+    {
+      "id": "user-6",
+      "name": "Nusrat Jahan",
+      "email": "nusrat.jahan@company.com",
+      "role": "user",
+      "designation": "Quality Controller",
+      "department": "Quality Assurance",
+      "currentLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "carsUsed": [
+        "car-8"
+      ],
+      "totalDistance": {
+        "day": 28,
+        "month": 510,
+        "year": 6100
+      },
+      "isActive": true,
+      "password": "password123"
+    },
+    {
+      "id": "user-7",
+      "name": "Kamal Hossain",
+      "email": "kamal.hossain@company.com",
+      "role": "user",
+      "designation": "Logistics Manager",
+      "department": "Supply Chain",
+      "currentLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "carsUsed": [
+        "car-1"
+      ],
+      "totalDistance": {
+        "day": 42,
+        "month": 780,
+        "year": 9200
+      },
+      "isActive": true,
+      "password": "password123"
+    },
+    {
+      "id": "user-8",
+      "name": "Sabrina Chowdhury",
+      "email": "sabrina.chowdhury@company.com",
+      "role": "user",
+      "designation": "Marketing Head",
+      "department": "Marketing",
+      "currentLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "carsUsed": [
+        "car-2"
+      ],
+      "totalDistance": {
+        "day": 15,
+        "month": 270,
+        "year": 3200
+      },
+      "isActive": true,
+      "password": "password123"
+    },
+    {
+      "id": "user-9",
+      "name": "Sohel Rana",
+      "email": "sohel.rana@company.com",
+      "role": "user",
+      "designation": "Production Supervisor",
+      "department": "Manufacturing",
+      "currentLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "carsUsed": [
+        "car-3"
+      ],
+      "totalDistance": {
+        "day": 38,
+        "month": 690,
+        "year": 8300
+      },
+      "isActive": true,
+      "password": "password123"
+    },
+    {
+      "id": "user-10",
+      "name": "Tasnim Ferdous",
+      "email": "tasnim.ferdous@company.com",
+      "role": "user",
+      "designation": "Accountant",
+      "department": "Finance",
+      "currentLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "carsUsed": [
+        "car-4"
+      ],
+      "totalDistance": {
+        "day": 8,
+        "month": 150,
+        "year": 1800
+      },
+      "isActive": true,
+      "password": "password123"
+    },
+    {
+      "id": "user-11",
+      "name": "Arif Hasan",
+      "email": "arif.hasan@company.com",
+      "role": "user",
+      "designation": "System Admin",
+      "department": "IT",
+      "currentLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "carsUsed": [
+        "car-5"
+      ],
+      "totalDistance": {
+        "day": 20,
+        "month": 360,
+        "year": 4300
+      },
+      "isActive": true,
+      "password": "password123"
+    },
+    {
+      "id": "user-12",
+      "name": "Farhana Yeasmin",
+      "email": "farhana.yeasmin@company.com",
+      "role": "user",
+      "designation": "QA Engineer",
+      "department": "Quality Assurance",
+      "currentLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "carsUsed": [
+        "car-6"
+      ],
+      "totalDistance": {
+        "day": 32,
+        "month": 580,
+        "year": 6900
+      },
+      "isActive": true,
+      "password": "password123"
+    },
+    {
+      "id": "user-13",
+      "name": "Imran Sheikh",
+      "email": "imran.sheikh@company.com",
+      "role": "user",
+      "designation": "Warehouse Manager",
+      "department": "Logistics",
+      "currentLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "carsUsed": [
+        "car-7"
+      ],
+      "totalDistance": {
+        "day": 45,
+        "month": 820,
+        "year": 9800
+      },
+      "isActive": true,
+      "password": "password123"
+    },
+    {
+      "id": "user-14",
+      "name": "Lubna Rahman",
+      "email": "lubna.rahman@company.com",
+      "role": "user",
+      "designation": "Brand Manager",
+      "department": "Marketing",
+      "currentLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "carsUsed": [
+        "car-8"
+      ],
+      "totalDistance": {
+        "day": 17,
+        "month": 310,
+        "year": 3700
+      },
+      "isActive": true,
+      "password": "password123"
+    },
+    {
+      "id": "user-15",
+      "name": "Bappi Sarker",
+      "email": "bappi.sarker@company.com",
+      "role": "user",
+      "designation": "Shift Incharge",
+      "department": "Manufacturing",
+      "currentLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "carsUsed": [
+        "car-1"
+      ],
+      "totalDistance": {
+        "day": 40,
+        "month": 720,
+        "year": 8600
+      },
+      "isActive": true,
+      "password": "password123"
+    },
+    {
+      "id": "user-16",
+      "name": "Nazia Haque",
+      "email": "nazia.haque@company.com",
+      "role": "user",
+      "designation": "Tax Specialist",
+      "department": "Finance",
+      "currentLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "carsUsed": [
+        "car-2"
+      ],
+      "totalDistance": {
+        "day": 10,
+        "month": 180,
+        "year": 2200
+      },
+      "isActive": true,
+      "password": "password123"
+    },
+    {
+      "id": "user-17",
+      "name": "Shahriar Ahmed",
+      "email": "shahriar.ahmed@company.com",
+      "role": "user",
+      "designation": "Network Engineer",
+      "department": "IT",
+      "currentLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "carsUsed": [
+        "car-3"
+      ],
+      "totalDistance": {
+        "day": 25,
+        "month": 450,
+        "year": 5400
+      },
+      "isActive": true,
+      "password": "password123"
+    },
+    {
+      "id": "user-18",
+      "name": "Rehana Parvin",
+      "email": "rehana.parvin@company.com",
+      "role": "user",
+      "designation": "Lab Technician",
+      "department": "Quality Assurance",
+      "currentLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "carsUsed": [
+        "car-4"
+      ],
+      "totalDistance": {
+        "day": 30,
+        "month": 540,
+        "year": 6500
+      },
+      "isActive": true,
+      "password": "password123"
+    },
+    {
+      "id": "user-19",
+      "name": "Jahangir Alam",
+      "email": "jahangir.alam@company.com",
+      "role": "user",
+      "designation": "Transport Coordinator",
+      "department": "Logistics",
+      "currentLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "carsUsed": [
+        "car-5"
+      ],
+      "totalDistance": {
+        "day": 55,
+        "month": 980,
+        "year": 11800
+      },
+      "isActive": true,
+      "password": "password123"
+    },
+    {
+      "id": "user-20",
+      "name": "Mousumi Akter",
+      "email": "mousumi.akter@company.com",
+      "role": "user",
+      "designation": "Digital Marketer",
+      "department": "Marketing",
+      "currentLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "carsUsed": [
+        "car-6"
+      ],
+      "totalDistance": {
+        "day": 14,
+        "month": 250,
+        "year": 3000
+      },
+      "isActive": true,
+      "password": "password123"
+    },
+    {
+      "id": "admin-1",
+      "name": "Admin User",
+      "email": "admin@company.com",
+      "role": "admin",
+      "designation": "System Administrator",
+      "department": "IT",
+      "currentLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "carsUsed": [],
+      "totalDistance": {
+        "day": 0,
+        "month": 0,
+        "year": 0
+      },
+      "isActive": true,
+      "password": "password123"
+    }
+  ],
+  "drivers": [
+    {
+      "id": "driver-1",
+      "name": "Rafiqul Islam",
+      "email": "rafiqul.islam@company.com",
+      "role": "driver",
+      "dob": "1985-03-15",
+      "licenseNo": "DHK-1234567",
+      "licenseExpiry": "2025-12-31",
+      "onLeave": true,
+      "salary": 35000,
+      "totalLeave": 20,
+      "remainingLeave": 15,
+      "currentLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "totalTravelledDistance": {
+        "day": 120,
+        "month": 2500,
+        "year": 30000
+      },
+      "password": "password123"
+    },
+    {
+      "id": "driver-2",
+      "name": "Shahid Miah",
+      "email": "shahid.miah@company.com",
+      "role": "driver",
+      "dob": "1988-07-22",
+      "licenseNo": "DHK-7654321",
+      "licenseExpiry": "2024-11-30",
+      "onLeave": false,
+      "salary": 32000,
+      "totalLeave": 20,
+      "remainingLeave": 18,
+      "currentLocation": {
+        "lat": 23.8516,
+        "lng": 90.2652,
+        "address": "Gazipur, Dhaka Division"
+      },
+      "totalTravelledDistance": {
+        "day": 95,
+        "month": 2100,
+        "year": 25500
+      },
+      "password": "password123"
+    },
+    {
+      "id": "driver-3",
+      "name": "Jamal Uddin",
+      "email": "jamal.uddin@company.com",
+      "role": "driver",
+      "dob": "1990-11-08",
+      "licenseNo": "DHK-9876543",
+      "licenseExpiry": "2026-03-15",
+      "onLeave": true,
+      "salary": 30000,
+      "totalLeave": 20,
+      "remainingLeave": 12,
+      "currentLocation": {
+        "lat": 23.7915,
+        "lng": 90.407,
+        "address": "Farmgate, Dhaka"
+      },
+      "totalTravelledDistance": {
+        "day": 0,
+        "month": 1800,
+        "year": 22000
+      },
+      "password": "password123"
+    },
+    {
+      "id": "driver-4",
+      "name": "Karim Bepari",
+      "email": "karim.bepari@company.com",
+      "role": "driver",
+      "dob": "1987-05-30",
+      "licenseNo": "DHK-4567890",
+      "licenseExpiry": "2025-08-20",
+      "onLeave": false,
+      "salary": 33000,
+      "totalLeave": 20,
+      "remainingLeave": 16,
+      "currentLocation": {
+        "lat": 23.75,
+        "lng": 90.4,
+        "address": "Dhanmondi, Dhaka"
+      },
+      "totalTravelledDistance": {
+        "day": 110,
+        "month": 2300,
+        "year": 27500
+      },
+      "password": "password123"
+    },
+    {
+      "id": "driver-5",
+      "name": "Salam Khan",
+      "email": "salam.khan@company.com",
+      "role": "driver",
+      "dob": "1992-02-14",
+      "licenseNo": "DHK-3456789",
+      "licenseExpiry": "2024-09-25",
+      "onLeave": false,
+      "salary": 31000,
+      "totalLeave": 20,
+      "remainingLeave": 20,
+      "currentLocation": {
+        "lat": 23.873,
+        "lng": 90.3964,
+        "address": "Uttara, Dhaka"
+      },
+      "totalTravelledDistance": {
+        "day": 85,
+        "month": 1900,
+        "year": 23000
+      },
+      "password": "password123"
+    },
+    {
+      "id": "driver-6",
+      "name": "Babul Hossain",
+      "email": "babul.hossain@company.com",
+      "role": "driver",
+      "dob": "1989-09-18",
+      "licenseNo": "DHK-2345678",
+      "licenseExpiry": "2025-06-10",
+      "onLeave": false,
+      "salary": 34000,
+      "totalLeave": 20,
+      "remainingLeave": 14,
+      "currentLocation": {
+        "lat": 23.78086520637937,
+        "lng": 90.4227586837988,
+        "address": "Comilla Para Road, Middle Badda, Gulshan, Dhaka, Dhaka Metropolitan, Dhaka District, Dhaka Division, 1212, Bangladesh"
+      },
+      "totalTravelledDistance": {
+        "day": 105,
+        "month": 2400,
+        "year": 29000
+      },
+      "password": "password123"
+    }
+  ],
+  "cars": [
+    {
+      "id": "car-1",
+      "model": "Toyota Corolla",
+      "regNo": "DHK-GA-11-1234",
+      "drivers": [
+        "driver-1",
+        "driver-2"
+      ],
+      "users": [
+        "user-1",
+        "user-7",
+        "user-15"
+      ],
+      "status": "available",
+      "isClean": true,
+      "needsServicing": false,
+      "totalDistanceTravelled": {
+        "day": 45,
+        "month": 1200,
+        "year": 14500
+      },
+      "currentLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      }
+    },
+    {
+      "id": "car-2",
+      "model": "Honda City",
+      "regNo": "DHK-GA-11-5678",
+      "drivers": [
+        "driver-3"
+      ],
+      "users": [
+        "user-1",
+        "user-8",
+        "user-16"
+      ],
+      "status": "available",
+      "isClean": true,
+      "needsServicing": false,
+      "totalDistanceTravelled": {
+        "day": 38,
+        "month": 1100,
+        "year": 13200
+      },
+      "currentLocation": {
+        "lat": 23.8516,
+        "lng": 90.2652,
+        "address": "Gazipur, Dhaka Division"
+      }
+    },
+    {
+      "id": "car-3",
+      "model": "Toyota Premio",
+      "regNo": "DHK-GA-11-9012",
+      "drivers": [
+        "driver-4"
+      ],
+      "users": [
+        "user-2",
+        "user-9",
+        "user-17"
+      ],
+      "status": "in-use",
+      "isClean": false,
+      "needsServicing": true,
+      "totalDistanceTravelled": {
+        "day": 52,
+        "month": 1400,
+        "year": 16800
+      },
+      "currentLocation": {
+        "lat": 23.7915,
+        "lng": 90.407,
+        "address": "Farmgate, Dhaka"
+      }
+    },
+    {
+      "id": "car-4",
+      "model": "Mitsubishi Pajero",
+      "regNo": "DHK-GA-11-3456",
+      "drivers": [
+        "driver-5"
+      ],
+      "users": [
+        "user-3",
+        "user-10",
+        "user-18"
+      ],
+      "status": "servicing",
+      "isClean": true,
+      "needsServicing": true,
+      "totalDistanceTravelled": {
+        "day": 0,
+        "month": 1250,
+        "year": 15000
+      },
+      "currentLocation": {
+        "lat": 23.75,
+        "lng": 90.4,
+        "address": "Dhanmondi, Dhaka"
+      }
+    },
+    {
+      "id": "car-5",
+      "model": "Nissan X-Trail",
+      "regNo": "DHK-GA-11-7890",
+      "drivers": [
+        "driver-6"
+      ],
+      "users": [
+        "user-3",
+        "user-11",
+        "user-19"
+      ],
+      "status": "available",
+      "isClean": true,
+      "needsServicing": false,
+      "totalDistanceTravelled": {
+        "day": 28,
+        "month": 950,
+        "year": 11400
+      },
+      "currentLocation": {
+        "lat": 23.78086520637937,
+        "lng": 90.4227586837988,
+        "address": "Comilla Para Road, Middle Badda, Gulshan, Dhaka, Dhaka Metropolitan, Dhaka District, Dhaka Division, 1212, Bangladesh"
+      }
+    },
+    {
+      "id": "car-6",
+      "model": "Toyota HiAce",
+      "regNo": "DHK-GA-11-2345",
+      "drivers": [
+        "driver-1"
+      ],
+      "users": [
+        "user-4",
+        "user-12",
+        "user-20"
+      ],
+      "status": "cleaning",
+      "isClean": false,
+      "needsServicing": false,
+      "totalDistanceTravelled": {
+        "day": 65,
+        "month": 1800,
+        "year": 21600
+      },
+      "currentLocation": {
+        "lat": 23.7272,
+        "lng": 90.4106,
+        "address": "Jatrabari, Dhaka"
+      }
+    },
+    {
+      "id": "car-7",
+      "model": "Hyundai Sonata",
+      "regNo": "DHK-GA-11-6789",
+      "drivers": [
+        "driver-2"
+      ],
+      "users": [
+        "user-5",
+        "user-13"
+      ],
+      "status": "in-use",
+      "isClean": true,
+      "needsServicing": false,
+      "totalDistanceTravelled": {
+        "day": 42,
+        "month": 1150,
+        "year": 13800
+      },
+      "currentLocation": {
+        "lat": 23.7639,
+        "lng": 90.3711,
+        "address": "Mirpur, Dhaka"
+      }
+    },
+    {
+      "id": "car-8",
+      "model": "Toyota Allion",
+      "regNo": "DHK-GA-11-0123",
+      "drivers": [
+        "driver-4"
+      ],
+      "users": [
+        "user-6",
+        "user-14"
+      ],
+      "status": "in-use",
+      "isClean": true,
+      "needsServicing": false,
+      "totalDistanceTravelled": {
+        "day": 31,
+        "month": 1050,
+        "year": 12600
+      },
+      "currentLocation": {
+        "lat": 23.7985,
+        "lng": 90.4253,
+        "address": "Moghbazar, Dhaka"
+      }
+    }
+  ],
+  "locations": [
+    {
+      "lat": 23.8103,
+      "lng": 90.4125,
+      "address": "Paramount BD Head Office, Dhaka"
+    },
+    {
+      "lat": 23.8516,
+      "lng": 90.2652,
+      "address": "Paramount BD Textile Factory, Gazipur"
+    },
+    {
+      "lat": 23.8456,
+      "lng": 90.258,
+      "address": "Paramount Agro, Fawganj, Gazipur"
+    },
+    {
+      "lat": 23.7915,
+      "lng": 90.407,
+      "address": "Farmgate, Dhaka"
+    },
+    {
+      "lat": 23.75,
+      "lng": 90.4,
+      "address": "Dhanmondi, Dhaka"
+    },
+    {
+      "lat": 23.873,
+      "lng": 90.3964,
+      "address": "Uttara, Dhaka"
+    },
+    {
+      "lat": 23.7272,
+      "lng": 90.4106,
+      "address": "Jatrabari, Dhaka"
+    },
+    {
+      "lat": 23.7639,
+      "lng": 90.3711,
+      "address": "Mirpur, Dhaka"
+    },
+    {
+      "lat": 23.7985,
+      "lng": 90.4253,
+      "address": "Moghbazar, Dhaka"
+    },
+    {
+      "lat": 23.78,
+      "lng": 90.419,
+      "address": "Motijheel, Dhaka"
+    },
+    {
+      "lat": 23.815,
+      "lng": 90.425,
+      "address": "Banani, Dhaka"
+    },
+    {
+      "lat": 23.83,
+      "lng": 90.42,
+      "address": "Gulshan, Dhaka"
+    },
+    {
+      "lat": 24.3745,
+      "lng": 88.6042,
+      "address": "Rajshahi City"
+    },
+    {
+      "lat": 22.3569,
+      "lng": 91.7832,
+      "address": "Chittagong Port"
+    },
+    {
+      "lat": 23.4607,
+      "lng": 91.1809,
+      "address": "Comilla Industrial Area"
+    }
+  ],
+  "journeys": [
+    {
+      "id": "journey-1",
+      "carId": "car-1",
+      "driverId": "driver-1",
+      "userId": "user-1",
+      "userName": "Abdul Rahman",
+      "driverName": "Rafiqul Islam",
+      "carModel": "Toyota Corolla",
+      "startLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "endLocation": {
+        "lat": 23.8516,
+        "lng": 90.2652,
+        "address": "Paramount BD Textile Factory, Gazipur"
+      },
+      "waypoints": [],
+      "status": "completed",
+      "startTime": "2024-01-15T08:30:00Z",
+      "endTime": "2024-01-15T10:15:00Z",
+      "distance": 42,
+      "rating": 5,
+      "routeChanges": [],
+      "estimatedDuration": 105
+    },
+    {
+      "id": "journey-2",
+      "carId": "car-2",
+      "driverId": "driver-3",
+      "userId": "user-8",
+      "userName": "Sabrina Chowdhury",
+      "driverName": "Jamal Uddin",
+      "carModel": "Honda City",
+      "startLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "endLocation": {
+        "lat": 23.815,
+        "lng": 90.425,
+        "address": "Banani, Dhaka"
+      },
+      "waypoints": [
+        {
+          "lat": 0,
+          "lng": 0,
+          "address": "New stop requested"
+        }
+      ],
+      "status": "in-progress",
+      "startTime": "2024-01-15T14:00:00Z",
+      "endTime": null,
+      "distance": 8,
+      "rating": null,
+      "routeChanges": [
+        {
+          "type": "waypoint_added",
+          "timestamp": "2025-11-17T16:52:02.442Z",
+          "waypoint": {
+            "lat": 0,
+            "lng": 0,
+            "address": "New stop requested"
+          },
+          "reason": "User requested additional stop"
+        }
+      ],
+      "estimatedDuration": 25
+    },
+    {
+      "id": "journey-3",
+      "carId": "car-3",
+      "driverId": "driver-4",
+      "userId": "user-3",
+      "userName": "Mohammad Ali",
+      "driverName": "Karim Bepari",
+      "carModel": "Toyota Premio",
+      "startLocation": {
+        "lat": 23.8516,
+        "lng": 90.2652,
+        "address": "Paramount BD Textile Factory, Gazipur"
+      },
+      "endLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "waypoints": [
+        {
+          "lat": 23.8456,
+          "lng": 90.258,
+          "address": "Paramount Agro, Fawganj, Gazipur"
+        }
+      ],
+      "status": "completed",
+      "startTime": "2024-01-15T16:00:00Z",
+      "endTime": "2024-01-15T18:30:00Z",
+      "distance": 48,
+      "rating": 4,
+      "routeChanges": [],
+      "estimatedDuration": 150
+    },
+    {
+      "id": "journey-4",
+      "carId": "car-3",
+      "driverId": "driver-2",
+      "userId": "user-5",
+      "userName": "Rahim Khan",
+      "startLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "endLocation": {
+        "lat": 24.3745,
+        "lng": 88.6042,
+        "address": "Rajshahi City"
+      },
+      "waypoints": [],
+      "status": "completed",
+      "startTime": "2024-01-15T09:00:00Z",
+      "endTime": "2025-11-16T11:51:59.328Z",
+      "distance": 0,
+      "rating": null,
+      "routeChanges": [],
+      "estimatedDuration": 360,
+      "driverName": "Shahid Miah",
+      "carModel": "Toyota Premio"
+    },
+    {
+      "id": "journey-5",
+      "carId": "car-5",
+      "driverId": "driver-6",
+      "userId": "user-11",
+      "userName": "Arif Hasan",
+      "driverName": "Babul Hossain",
+      "carModel": "Nissan X-Trail",
+      "startLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "endLocation": {
+        "lat": 22.3569,
+        "lng": 91.7832,
+        "address": "Chittagong Port"
+      },
+      "waypoints": [],
+      "status": "completed",
+      "startTime": "2024-01-14T06:00:00Z",
+      "endTime": "2024-01-14T14:30:00Z",
+      "distance": 250,
+      "rating": 5,
+      "routeChanges": [],
+      "estimatedDuration": 510
+    },
+    {
+      "id": "journey-6",
+      "carId": "car-7",
+      "driverId": "driver-2",
+      "userId": "user-13",
+      "userName": "Imran Sheikh",
+      "driverName": "Shahid Miah",
+      "carModel": "Hyundai Sonata",
+      "startLocation": {
+        "lat": 23.7639,
+        "lng": 90.3711,
+        "address": "Mirpur, Dhaka"
+      },
+      "endLocation": {
+        "lat": 23.8516,
+        "lng": 90.2652,
+        "address": "Paramount BD Textile Factory, Gazipur"
+      },
+      "waypoints": [],
+      "status": "in-progress",
+      "startTime": "2024-01-15T10:30:00Z",
+      "endTime": null,
+      "distance": 28,
+      "rating": null,
+      "routeChanges": [],
+      "estimatedDuration": 70
+    },
+    {
+      "id": "journey-7",
+      "carId": "car-8",
+      "driverId": "driver-4",
+      "userId": "user-6",
+      "userName": "Nusrat Jahan",
+      "driverName": "Karim Bepari",
+      "carModel": "Toyota Allion",
+      "startLocation": {
+        "lat": 23.7985,
+        "lng": 90.4253,
+        "address": "Moghbazar, Dhaka"
+      },
+      "endLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "waypoints": [],
+      "status": "completed",
+      "startTime": "2024-01-15T08:00:00Z",
+      "endTime": "2024-01-15T08:45:00Z",
+      "distance": 5,
+      "rating": 4,
+      "routeChanges": [],
+      "estimatedDuration": 45
+    },
+    {
+      "id": "journey-8",
+      "carId": "car-1",
+      "driverId": "driver-2",
+      "userId": "user-2",
+      "userName": "Fatima Begum",
+      "startLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "endLocation": {
+        "lat": 23.83,
+        "lng": 90.42,
+        "address": "Gulshan, Dhaka"
+      },
+      "waypoints": [
+        {
+          "lat": 0,
+          "lng": 0,
+          "address": "New stop requested"
+        }
+      ],
+      "status": "completed",
+      "startTime": "2024-01-15T11:00:00Z",
+      "endTime": "2025-11-16T10:49:47.510Z",
+      "distance": 0,
+      "rating": null,
+      "routeChanges": [
+        {
+          "type": "waypoint_added",
+          "timestamp": "2025-11-16T10:49:43.764Z",
+          "waypoint": {
+            "lat": 0,
+            "lng": 0,
+            "address": "New stop requested"
+          },
+          "reason": "User requested additional stop"
+        }
+      ],
+      "estimatedDuration": 30
+    },
+    {
+      "id": "journey-9",
+      "carId": "car-1",
+      "driverId": "driver-1",
+      "userId": "user-7",
+      "userName": "Kamal Hossain",
+      "driverName": "Rafiqul Islam",
+      "carModel": "Toyota Corolla",
+      "startLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "endLocation": {
+        "lat": 23.4607,
+        "lng": 91.1809,
+        "address": "Comilla Industrial Area"
+      },
+      "waypoints": [],
+      "status": "completed",
+      "startTime": "2024-01-13T07:00:00Z",
+      "endTime": "2024-01-13T11:30:00Z",
+      "distance": 97,
+      "rating": 5,
+      "routeChanges": [],
+      "estimatedDuration": 270
+    },
+    {
+      "id": "journey-10",
+      "carId": "car-6",
+      "driverId": "driver-1",
+      "userId": "user-4",
+      "userName": "Sharmin Akter",
+      "driverName": "Rafiqul Islam",
+      "carModel": "Toyota HiAce",
+      "startLocation": {
+        "lat": 23.7272,
+        "lng": 90.4106,
+        "address": "Jatrabari, Dhaka"
+      },
+      "endLocation": {
+        "lat": 23.78,
+        "lng": 90.419,
+        "address": "Motijheel, Dhaka"
+      },
+      "waypoints": [],
+      "status": "cancelled",
+      "startTime": "2024-01-14T15:00:00Z",
+      "endTime": null,
+      "distance": 8,
+      "rating": null,
+      "routeChanges": [],
+      "estimatedDuration": 25
+    },
+    {
+      "id": "journey-1763289872868",
+      "carId": "",
+      "driverId": "",
+      "userId": "user-1",
+      "userName": "Abdul Rahman 2",
+      "driverName": "",
+      "carModel": "",
+      "startLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "endLocation": {
+        "lat": 0,
+        "lng": 0,
+        "address": "Paramount BD Textile Factory, Gazipur"
+      },
+      "waypoints": [],
+      "status": "cancelled",
+      "startTime": "2025-11-16T10:44:32.868Z",
+      "endTime": "2025-11-16T10:48:25.268Z",
+      "distance": 0,
+      "rating": null,
+      "routeChanges": [],
+      "estimatedDuration": 0
+    },
+    {
+      "id": "journey-1763290200632",
+      "carId": "",
+      "driverId": "",
+      "userId": "user-2",
+      "userName": "Fatima Akter",
+      "driverName": "",
+      "carModel": "",
+      "startLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "endLocation": {
+        "lat": 0,
+        "lng": 0,
+        "address": "Gulshan, Dhaka"
+      },
+      "waypoints": [],
+      "status": "cancelled",
+      "startTime": "2025-11-16T10:50:00.632Z",
+      "endTime": "2025-11-16T10:51:26.905Z",
+      "distance": 0,
+      "rating": null,
+      "routeChanges": [],
+      "estimatedDuration": 0
+    },
+    {
+      "id": "journey-1763293936249",
+      "carId": "car-5",
+      "driverId": "driver-2",
+      "userId": "user-5",
+      "userName": "Rahim Khan",
+      "driverName": "Shahid Miah",
+      "carModel": "Nissan X-Trail",
+      "startLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "endLocation": {
+        "lat": 0,
+        "lng": 0,
+        "address": "Rajshahi City"
+      },
+      "waypoints": [],
+      "status": "in-progress",
+      "startTime": "2025-11-16T11:52:16.249Z",
+      "endTime": null,
+      "distance": 0,
+      "rating": null,
+      "routeChanges": [],
+      "estimatedDuration": 0
+    },
+    {
+      "id": "journey-1763294700158",
+      "carId": "car-8",
+      "driverId": "driver-4",
+      "userId": "user-1",
+      "userName": "Abdul Rahman",
+      "driverName": "Karim Bepari",
+      "carModel": "Toyota Allion",
+      "startLocation": {
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "address": "Paramount BD Head Office, Dhaka"
+      },
+      "endLocation": {
+        "lat": 0,
+        "lng": 0,
+        "address": "Paramount BD Textile Factory, Gazipur"
+      },
+      "waypoints": [
+        {
+          "lat": 0,
+          "lng": 0,
+          "address": "New stop requested"
+        },
+        {
+          "lat": 0,
+          "lng": 0,
+          "address": "New stop requested"
+        }
+      ],
+      "status": "completed",
+      "startTime": "2025-11-16T12:05:00.158Z",
+      "endTime": "2025-11-17T19:57:43.588Z",
+      "distance": 0,
+      "rating": null,
+      "routeChanges": [
+        {
+          "type": "waypoint_added",
+          "timestamp": "2025-11-16T12:13:18.448Z",
+          "waypoint": {
+            "lat": 0,
+            "lng": 0,
+            "address": "New stop requested"
+          },
+          "reason": "User requested additional stop"
+        },
+        {
+          "type": "waypoint_added",
+          "timestamp": "2025-11-17T19:03:07.558Z",
+          "waypoint": {
+            "lat": 0,
+            "lng": 0,
+            "address": "New stop requested"
+          },
+          "reason": "User requested additional stop"
+        }
+      ],
+      "estimatedDuration": 0
+    }
+  ],
+  "leaveRequests": [
+    {
+      "id": "leave-1",
+      "driverId": "driver-3",
+      "startDate": "2024-01-15",
+      "endDate": "2024-01-18",
+      "reason": "Family emergency",
+      "status": "approved",
+      "submittedAt": "2024-01-10T09:00:00Z"
+    },
+    {
+      "id": "leave-2",
+      "driverId": "driver-5",
+      "startDate": "2024-01-20",
+      "endDate": "2024-01-22",
+      "reason": "Medical checkup",
+      "status": "pending",
+      "submittedAt": "2024-01-14T11:30:00Z"
+    }
+  ],
+  "systemStats": {
+    "totalUsers": 20,
+    "totalDrivers": 6,
+    "totalCars": 8,
+    "activeJourneys": 3,
+    "pendingRequests": 0,
+    "availableCars": 3,
+    "driversOnLeave": 2,
+    "monthlyDistance": 12500
+  }
+}
