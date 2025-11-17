@@ -1,11 +1,11 @@
 'use client';
 
 import { useActionState, useOptimistic } from 'react';
-import { Car, AppLocation, Journey } from '../types';
+import { Car, Location, Journey } from '../types';
 
 interface JourneyRequestProps {
   availableCars: Car[];
-  onRequestSubmit: (carId: string, destination: AppLocation) => Promise<Journey>;
+  onRequestSubmit: (carId: string, destination: Location) => Promise<Journey>;
 }
 
 export default function JourneyRequest({ availableCars, onRequestSubmit }: JourneyRequestProps) {
@@ -20,7 +20,7 @@ export default function JourneyRequest({ availableCars, onRequestSubmit }: Journ
       }
 
       try {
-        const destinationLocation: AppLocation = {
+        const destinationLocation: Location = {
           lat: 0,
           lng: 0,
           address: destination

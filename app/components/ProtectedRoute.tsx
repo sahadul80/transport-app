@@ -23,20 +23,7 @@ export default function ProtectedRoute({
     }
 
     if (!isLoading && isAuthenticated && requiredRole && user?.role !== requiredRole) {
-      // Redirect to appropriate dashboard based on role
-      switch (user?.role) {
-        case 'user':
-          router.push('/user');
-          break;
-        case 'driver':
-          router.push('/driver');
-          break;
-        case 'admin':
-          router.push('/admin');
-          break;
-        default:
-          router.push('/login');
-      }
+      router.push(`/${user?.role}`)
     }
   }, [isAuthenticated, isLoading, user, requiredRole, router]);
 
